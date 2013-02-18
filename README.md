@@ -1,0 +1,1 @@
+Sample of how Symfony can be set up with Vagrant and Chef.
