@@ -15,7 +15,7 @@ Installation
     
     ```33.33.33.10     symfony.local```
 *   You should now be able to access http://symfony.local/app_dev.php in your browser and see a
-    404 page
+    welcome page
 
 Usage
 -----
