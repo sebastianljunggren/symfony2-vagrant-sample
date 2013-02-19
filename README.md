@@ -39,6 +39,5 @@ Installation
 Usage
 -----
 
-SSH into the machine with `vagrant ssh`. Then docroot is found in "/home/vagrant/symfony".
-When in the project folder symfony commands can be executed with `sf2` and composer commands with 
-`composer`.
+SSH into the machine with `vagrant ssh`. The docroot is found in "/home/vagrant/symfony". When in 
+the project folder symfony commands can be executed with `sf2` and composer commands with `composer`.
