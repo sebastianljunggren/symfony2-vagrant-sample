@@ -1,5 +1,5 @@
-Sample of how Symfony can be set up with Vagrant and Chef.
-==========================================================
+Symfony development using Vagrant
+=================================
 
 Installation
 ------------
@@ -14,7 +14,24 @@ Installation
 *   Add the following to your [hosts file](https://www.google.com/search?q=host+file):
     
     ```33.33.33.10     symfony.local```
-    
+
+*   Due to problems with shared folder performance on some platforms with Virtualbox another manual 
+    step is required. Different ways of doing this is required for each platform:
+    -   **Windows**
+
+        [SSH into the virtual machine](http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+        and change into the project directory (`cd symfony`). Run `composer install`.
+
+    -   **Linux**
+
+        Make sure PHP is installed on the host. Then 
+        install Composer globally](http://getcomposer.org/doc/00-intro.md#globally) (also on the host). Change to the
+        location of the project on the host and run `composer install`.
+
+    -   **OSX**
+
+        Not tested yet.
+
 *   You should now be able to access http://symfony.local/app_dev.php in your browser and see a
     welcome page
 
