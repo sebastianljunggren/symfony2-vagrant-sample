@@ -25,7 +25,7 @@ Installation
     -   **Linux**
 
         Make sure PHP is installed on the host. Then 
-        install Composer globally](http://getcomposer.org/doc/00-intro.md#globally) (also on the host). Change to the
+        [install Composer globally](http://getcomposer.org/doc/00-intro.md#globally) (also on the host). Change to the
         location of the project on the host and run `composer install`.
 
     -   **OSX**
