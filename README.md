@@ -12,7 +12,7 @@ Installation
 *   Set up the virtual machine with Vagrant: `vagrant up` (This step will take some time
     since it includes downloading a lot.)
 *   Add the following to your [hosts file](https://www.google.com/search?q=host+file):
-        33.33.33.10     symfony.local
+    ```33.33.33.10     symfony.local```
 *   You should now be able to access http://symfony.local/app_dev.php in your browser and see a
     404 page
 
