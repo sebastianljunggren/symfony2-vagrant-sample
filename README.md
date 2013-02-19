@@ -19,7 +19,7 @@ Installation
     step is required. Different ways of doing this is required for each platform:
     -   **Windows**
 
-        [SSH into the virtual machine](http://stackoverflow.com/questions/9885108/ssh-to-vagrant-box-in-windows)
+        [SSH into the virtual machine](http://docs.vagrantup.com/v1/docs/getting-started/ssh.html)
         and change into the project directory (`cd symfony`). Run `composer install`.
 
     -   **Linux**
