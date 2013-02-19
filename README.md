@@ -8,7 +8,8 @@ Installation
 *   Clone this repository using 
     `git clone --recursive git://github.com/sebastianljunggren/symfony2-vagrant-sample.git`.
 *   Change into the new directory: `cd symfony2-vagrant-sample`
-*   Copy Vagrantfile.local.dist to Vagrantfile.local and change the variables to appropriate values
+*   Copy Vagrantfile.local.dist to Vagrantfile.local (`cp Vagrantfile.local.dist Vagrantfile.local`)
+    and change the variables to appropriate values
 *   Set up the virtual machine with Vagrant: `vagrant up` (This step will take some time
     since it includes downloading a lot.)
 *   Add the following to your [hosts file](https://www.google.com/search?q=host+file):
@@ -25,8 +26,8 @@ Installation
     -   **Linux**
 
         Make sure PHP is installed on the host. Then 
-        [install Composer globally](http://getcomposer.org/doc/00-intro.md#globally) (also on the host). Change to the
-        location of the project on the host and run `composer install`.
+        [install Composer globally](http://getcomposer.org/doc/00-intro.md#globally) (also on the host).
+        Change to the location of the project on the host and run `composer install`.
 
     -   **OSX**
 
