@@ -1,0 +1,3 @@
+[submodule "app/cookbooks"]
+	path = app/cookbooks
+	url = git://github.com/sebastianljunggren/chef-symfony2-cookbooks.git

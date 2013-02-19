@@ -11,4 +11,9 @@ web/bundles/*
 # Configuration files
 app/config/parameters.ini
 
+# Composer
 composer.phar
+
+# Local settings for vagrant
+Vagrantfile.local
+.vagrant
