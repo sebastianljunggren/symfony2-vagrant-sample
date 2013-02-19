@@ -14,12 +14,13 @@ Installation
 *   Add the following to your [hosts file](https://www.google.com/search?q=host+file):
     
     ```33.33.33.10     symfony.local```
+    
 *   You should now be able to access http://symfony.local/app_dev.php in your browser and see a
     welcome page
 
 Usage
 -----
 
-SSH into the machine with `vagrant ssh`. Then docroot is fount in "/home/vagrant/symfony".
+SSH into the machine with `vagrant ssh`. Then docroot is found in "/home/vagrant/symfony".
 When in the project folder symfony commands can be executed with `sf2` and composer commands with 
 `composer`.
