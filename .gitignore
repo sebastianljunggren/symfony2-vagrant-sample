@@ -17,3 +17,6 @@ composer.phar
 # Local settings for vagrant
 Vagrantfile.local
 .vagrant
+
+# Allow .gitkeep
+!.gitkeep
